@@ -8,6 +8,7 @@ on:
 jobs:
   CLABot:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: "CLA Signature Bot"
         uses: roblox/cla-signature-bot@v2
