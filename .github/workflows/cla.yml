@@ -11,7 +11,7 @@ jobs:
     permissions: write-all
     steps:
       - name: "CLA Signature Bot"
-        uses: roblox/cla-signature-bot@v2
+        uses: roblox/cla-assistant@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
