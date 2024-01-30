@@ -1,3 +1,3 @@
 # cla-bot-testbed
 
-Say something meaningless here.
+Say something meaningful here.
