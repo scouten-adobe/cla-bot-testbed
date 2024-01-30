@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: "MLCommons CLA bot check"
         if: (github.event.comment.body == 'recheck') || github.event_name == 'pull_request_target'
-        uses: mlcommons/cla-bot@master
+        uses: scouten-adobe/cla-bot@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PERSONAL_ACCESS_TOKEN : ${{ secrets.MLCOMMONS_BOT_CLA_TOKEN }}
